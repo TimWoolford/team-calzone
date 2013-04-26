@@ -2,8 +2,6 @@ package calzone;
 
 import calzone.model.*;
 import jetbrains.buildServer.controllers.BaseController;
-import jetbrains.buildServer.serverSide.SBuildType;
-import jetbrains.buildServer.serverSide.SProject;
 import org.apache.log4j.Logger;
 import org.springframework.web.servlet.ModelAndView;
 
@@ -28,14 +26,14 @@ public class ResultsPageController extends BaseController {
 
     private final CalzoneProjects projectManager;
     private final ResourceLocator resourceLocator;
-    private final BuildFormatter buildFormatter;
     private final OptionUtils optionUtils;
+    private BuildInfoExtractor buildInfoExtractor;
 
     public ResultsPageController(ResourceLocator resourceLocator, BuildFormatter buildFormatter, CalzoneProjects calzoneProjects) {
         this.projectManager = calzoneProjects;
         this.resourceLocator = resourceLocator;
-        this.buildFormatter = buildFormatter;
         optionUtils = new OptionUtils();
+        buildInfoExtractor = new BuildInfoExtractor(projectManager, buildFormatter);
     }
 
     @Override
@@ -54,29 +52,8 @@ public class ResultsPageController extends BaseController {
         model.putAll(optionUtils.toMap(options));
 
         if (parameterAsBoolean(request, "fragment")) {
-            Set<ProjectInfo> projects = new TreeSet<ProjectInfo>();
-            for (SProject sProject : projectManager.activeProjects()) {
-                LOG.debug(String.format("Scanning Project : %s", sProject.getName()));
 
-                Set<BuildInfo> builds = new TreeSet<BuildInfo>();
-                for (SBuildType sBuildType : sProject.getBuildTypes()) {
-                    LOG.debug(String.format("Scanning Build : %s", sBuildType.getName()));
-                    StringBuilder debugString = new StringBuilder(String.format("Project '%s'; Build '%s' :=", sProject.getName(), sBuildType.getName()));
-                    if (isBuildInWhichWeAreInterested(sBuildType, buildsToDisplaySet, projectsToDisplaySet)) {
-                        debugString.append(" DISPLAYED");
-                        builds.add(buildFormatter.format(sBuildType));
-                    } else {
-                        debugString.append(" NOT SHOWN");
-                    }
-                    if (options.isDebug()) {
-                        LOG.debug(debugString.toString());
-                    }
-                }
-
-                if (!builds.isEmpty()) {
-                    projects.add(new ProjectInfo(sProject.getName(), builds));
-                }
-            }
+            Set<ProjectInfo> projects = buildInfoExtractor.getProjectInfos(options, buildsToDisplaySet, projectsToDisplaySet);
 
             model.put("results", projects);
             model.put("now", new Date());
@@ -93,23 +70,17 @@ public class ResultsPageController extends BaseController {
         }
     }
 
+
     private String formatSet(Set<String> buildsToDisplaySet) {
         return buildsToDisplaySet.toString()
                 .replaceAll("[\\[\\]]", "")
                 .replaceAll(",\\s?", "\n");
     }
 
-    private boolean isBuildInWhichWeAreInterested(SBuildType sBuildType, HashSet<String> buildsToDisplaySet, HashSet<String> projectsToDisplaySet) {
-        return (buildsToDisplaySet.isEmpty() || buildsToDisplaySet.contains(sBuildType.getName().toLowerCase())) &&
-                (projectsToDisplaySet.isEmpty() || projectsToDisplaySet.contains(sBuildType.getProjectName().toLowerCase()));
-    }
-
     private HashSet<String> asSet(String[] dataAsArray) {
         HashSet<String> dataAsSet = new HashSet<String>(asList(dataAsArray));
-        if (dataAsArray != null) {
-            for (String s : dataAsArray) {
-                dataAsSet.add(s.toLowerCase());
-            }
+        for (String s : dataAsArray) {
+            dataAsSet.add(s.toLowerCase());
         }
         return dataAsSet;
     }

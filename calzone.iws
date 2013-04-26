@@ -5,13 +5,41 @@
       <artifact name="calzonePlugin" />
     </artifacts-to-build>
   </component>
+  <component name="BuildServerSettings">
+    <option name="LOGIN" value="" />
+    <option name="SERVER_URL" value="http://buildserver" />
+    <option name="PASSWORD" />
+    <option name="REMEMBER_ME" value="true" />
+    <option name="USE_IDEA_PROXY_SETTINGS" value="true" />
+    <option name="INSPECTIONS_BUILD_TYPE_IDS" />
+    <option name="DUPLICATES_BUILD_TYPE_IDS" />
+    <option name="COVERAGE_SETTINGS" />
+    <option name="ARTIFACTS_BUILD_TYPE_IDS" />
+    <option name="PERFORM_COMMIT_IF_SUCCESSFUL" value="true" />
+    <option name="PERFORM_COMMIT_IF_NO_NEW_FAILED_TESTS" value="false" />
+    <option name="REQUEST_CONFIRMATON" value="false" />
+    <option name="PRE_TESTED_COMMIT" value="true" />
+    <option name="PROJECT_STATUS_DIALOG_SPLITTER_DIVIDER_LOCATION" value="500" />
+    <option name="CHANGES_STATUS_DIALOG_SPLITTER_DIVIDER_LOCATION" value="500" />
+    <option name="FILTER_BY_STATUS" value="false" />
+    <option name="SHOW_CLOSE_PROMPT" value="true" />
+    <option name="TOOL_WINDOW_SELECTED_CONTENT_INDEX" value="0" />
+    <option name="FILTER_BY_CURRENT_PROJECT" value="true" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="47834f18-dd36-4fa2-96bf-6fde36e0e81c" name="Default" comment="TimW rework to simplify... some red builds not showing on occasion">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/calzone/ResultsPageController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/calzone/BuildInfoExtractor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/calzone/controller/CalzoneController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/buildServerResources/calzone2.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/buildServerResources/calzone2.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/calzone/ResourceLocator.java" afterPath="$PROJECT_DIR$/src/main/java/calzone/ResourceLocator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/calzone/ResultsPageController.java" afterPath="$PROJECT_DIR$/src/main/java/calzone/ResultsPageController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/calzone.ipr" afterPath="$PROJECT_DIR$/calzone.ipr" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/calzone.iws" afterPath="$PROJECT_DIR$/calzone.iws" />
     </list>
     <ignored path="calzone.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/ResultsPageController.java" changelist="47834f18-dd36-4fa2-96bf-6fde36e0e81c" time="1366909123433" ignored="false" />
+    <file path="/ResultsPageController.java" changelist="47834f18-dd36-4fa2-96bf-6fde36e0e81c" time="1366969851123" ignored="false" />
     <file path="/BuildFormatterTest.java" changelist="47834f18-dd36-4fa2-96bf-6fde36e0e81c" time="1366876870004" ignored="false" />
     <file path="/teamcity-server-log4j.xml" changelist="47834f18-dd36-4fa2-96bf-6fde36e0e81c" time="1366878498696" ignored="false" />
     <file path="/a.dummy" changelist="47834f18-dd36-4fa2-96bf-6fde36e0e81c" time="1366908802474" ignored="false" />
@@ -24,10 +52,100 @@
     <file path="/OptionsFormController.java" changelist="47834f18-dd36-4fa2-96bf-6fde36e0e81c" time="1366898144699" ignored="false" />
     <file path="/calzone.jsp" changelist="47834f18-dd36-4fa2-96bf-6fde36e0e81c" time="1366963402350" ignored="false" />
     <file path="/build-server-plugin-calzone.xml" changelist="47834f18-dd36-4fa2-96bf-6fde36e0e81c" time="1366897744150" ignored="false" />
-    <file path="/fragment.java" changelist="47834f18-dd36-4fa2-96bf-6fde36e0e81c" time="1366963422373" ignored="false" />
+    <file path="/fragment.java" changelist="47834f18-dd36-4fa2-96bf-6fde36e0e81c" time="1366973743587" ignored="false" />
     <file path="/TimeFormatter.java" changelist="47834f18-dd36-4fa2-96bf-6fde36e0e81c" time="1366901342292" ignored="false" />
     <file path="/OptionsFormModel.java" changelist="47834f18-dd36-4fa2-96bf-6fde36e0e81c" time="1366904312721" ignored="false" />
-    <file path="/Dummy.txt" changelist="47834f18-dd36-4fa2-96bf-6fde36e0e81c" time="1366963422373" ignored="false" />
+    <file path="/Dummy.txt" changelist="47834f18-dd36-4fa2-96bf-6fde36e0e81c" time="1366973902970" ignored="false" />
+    <file path="/CalzoneController.java" changelist="47834f18-dd36-4fa2-96bf-6fde36e0e81c" time="1366969231335" ignored="false" />
+    <file path="/ResourceLocator.java" changelist="47834f18-dd36-4fa2-96bf-6fde36e0e81c" time="1366970603599" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/lib/idea.jar!/standardSchemas/xinclude.xsd" changelist="47834f18-dd36-4fa2-96bf-6fde36e0e81c" time="1366970467275" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/JSF/lib/jsf-support.jar!/resources/schemas/facelets_jsf_core.taglib.xml" changelist="47834f18-dd36-4fa2-96bf-6fde36e0e81c" time="1366970467275" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/lib/idea.jar!/standardSchemas/XMLSchema-instance.xsd" changelist="47834f18-dd36-4fa2-96bf-6fde36e0e81c" time="1366970467275" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/JSF/lib/jsf-support.jar!/resources/schemas/html_basic.tld" changelist="47834f18-dd36-4fa2-96bf-6fde36e0e81c" time="1366970467275" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/JSF/lib/jsf-support.jar!/resources/schemas/jsf-ui.tld" changelist="47834f18-dd36-4fa2-96bf-6fde36e0e81c" time="1366970467275" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/Spring/lib/spring.jar!/resources/schemas/spring-tx-3.0.xsd" changelist="47834f18-dd36-4fa2-96bf-6fde36e0e81c" time="1366970467275" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/JSF/lib/jsf-support.jar!/resources/schemas/web-facesconfig_1_1.xsd" changelist="47834f18-dd36-4fa2-96bf-6fde36e0e81c" time="1366970467275" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/lib/idea.jar!/standardSchemas/xhtml1-transitional.xsd" changelist="47834f18-dd36-4fa2-96bf-6fde36e0e81c" time="1366970467275" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/JSF/lib/jsf-support.jar!/resources/schemas/web-facesuicomponent_2_0.xsd" changelist="47834f18-dd36-4fa2-96bf-6fde36e0e81c" time="1366970467276" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/JSF/lib/jsf-support.jar!/resources/schemas/html_basic.taglib.xml" changelist="47834f18-dd36-4fa2-96bf-6fde36e0e81c" time="1366970467276" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/JSF/lib/jsf-support.jar!/resources/schemas/web-facesconfig_1_2.xsd" changelist="47834f18-dd36-4fa2-96bf-6fde36e0e81c" time="1366970467276" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/lib/idea.jar!/standardSchemas/xhtml1-strict.xsd" changelist="47834f18-dd36-4fa2-96bf-6fde36e0e81c" time="1366970467276" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/JSF/lib/jsf-support.jar!/resources/schemas/javaee_5.xsd" changelist="47834f18-dd36-4fa2-96bf-6fde36e0e81c" time="1366970467276" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/JSF/lib/jsf-support.jar!/resources/schemas/composite.tld" changelist="47834f18-dd36-4fa2-96bf-6fde36e0e81c" time="1366970467276" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/lib/idea.jar!/standardSchemas/xslt-1_0.xsd" changelist="47834f18-dd36-4fa2-96bf-6fde36e0e81c" time="1366970467276" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/JSF/lib/jsf-support.jar!/resources/schemas/jsf_core.tld" changelist="47834f18-dd36-4fa2-96bf-6fde36e0e81c" time="1366970467276" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/JSF/lib/jsf-support.jar!/resources/schemas/html_basic_2_0.tld" changelist="47834f18-dd36-4fa2-96bf-6fde36e0e81c" time="1366970467276" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/Spring/lib/spring.jar!/resources/schemas/spring-tx-2.5.xsd" changelist="47834f18-dd36-4fa2-96bf-6fde36e0e81c" time="1366970467276" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/JSF/lib/jsf-support.jar!/resources/schemas/jsf-ui-2_0.tld" changelist="47834f18-dd36-4fa2-96bf-6fde36e0e81c" time="1366970467276" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/JSF/lib/jsf-support.jar!/resources/schemas/web-facelettaglibrary_2_0.xsd" changelist="47834f18-dd36-4fa2-96bf-6fde36e0e81c" time="1366970467276" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/JSF/lib/jsf-support.jar!/resources/schemas/javaee_web_services_client_1_2.xsd" changelist="47834f18-dd36-4fa2-96bf-6fde36e0e81c" time="1366970467276" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/lib/idea.jar!/standardSchemas/catalog.xsd" changelist="47834f18-dd36-4fa2-96bf-6fde36e0e81c" time="1366970467276" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/JSF/lib/jsf-support.jar!/resources/schemas/jstl-fn.taglib.xml" changelist="47834f18-dd36-4fa2-96bf-6fde36e0e81c" time="1366970467276" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/lib/idea.jar!/standardSchemas/XMLSchema.xsd" changelist="47834f18-dd36-4fa2-96bf-6fde36e0e81c" time="1366970467276" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/JSF/lib/jsf-support.jar!/resources/schemas/jstl-core.taglib.xml" changelist="47834f18-dd36-4fa2-96bf-6fde36e0e81c" time="1366970467276" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/JSF/lib/jsf-support.jar!/resources/schemas/ui.taglib.xml" changelist="47834f18-dd36-4fa2-96bf-6fde36e0e81c" time="1366970467276" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/JSF/lib/jsf-support.jar!/resources/schemas/web-facesconfig_2_0.xsd" changelist="47834f18-dd36-4fa2-96bf-6fde36e0e81c" time="1366970467276" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/lib/idea.jar!/standardSchemas/xhtml1-frameset.xsd" changelist="47834f18-dd36-4fa2-96bf-6fde36e0e81c" time="1366970467276" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/JSF/lib/jsf-support.jar!/resources/schemas/web-partialresponse_2_0.xsd" changelist="47834f18-dd36-4fa2-96bf-6fde36e0e81c" time="1366970467277" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/lib/idea.jar!/standardSchemas/xml.xsd" changelist="47834f18-dd36-4fa2-96bf-6fde36e0e81c" time="1366970467277" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/JSF/lib/jsf-support.jar!/resources/schemas/jstl.fn.facelets.tld" changelist="47834f18-dd36-4fa2-96bf-6fde36e0e81c" time="1366970467277" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/lib/idea.jar!/standardSchemas/xslt-2_0.xsd" changelist="47834f18-dd36-4fa2-96bf-6fde36e0e81c" time="1366970467277" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/JSF/lib/jsf-support.jar!/resources/schemas/composite.taglib.xml" changelist="47834f18-dd36-4fa2-96bf-6fde36e0e81c" time="1366970467277" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/lib/idea.jar!/standardSchemas/html5/xhtml5.xsd" changelist="47834f18-dd36-4fa2-96bf-6fde36e0e81c" time="1366970467277" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/JSF/lib/jsf-support.jar!/resources/schemas/xml.xsd" changelist="47834f18-dd36-4fa2-96bf-6fde36e0e81c" time="1366970467277" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/Spring/lib/spring.jar!/resources/schemas/spring-tx-2.0.xsd" changelist="47834f18-dd36-4fa2-96bf-6fde36e0e81c" time="1366970467277" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/lib/idea.jar!/resources/relaxng.rng" changelist="47834f18-dd36-4fa2-96bf-6fde36e0e81c" time="1366970467277" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/xpath/lib/xpath.jar!/org/intellij/lang/xpath/xslt/resources/documentation.xml" changelist="47834f18-dd36-4fa2-96bf-6fde36e0e81c" time="1366970467277" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/xpath/lib/xpath.jar!/org/intellij/lang/xpath/xslt/resources/xslt-schema.xsd" changelist="47834f18-dd36-4fa2-96bf-6fde36e0e81c" time="1366970467277" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/xpath/lib/xpath.jar!/org/intellij/lang/xpath/xslt/resources/documentation.xsl" changelist="47834f18-dd36-4fa2-96bf-6fde36e0e81c" time="1366970467277" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven.jar!/schemas/maven-4.0.0.xsd" changelist="47834f18-dd36-4fa2-96bf-6fde36e0e81c" time="1366970467277" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven.jar!/schemas/settings-1.0.0.xsd" changelist="47834f18-dd36-4fa2-96bf-6fde36e0e81c" time="1366970467277" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven.jar!/schemas/profiles-1.0.0.xsd" changelist="47834f18-dd36-4fa2-96bf-6fde36e0e81c" time="1366970467277" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/JavaEE/lib/javaee-impl.jar!/standardSchemas/j2ee_web_services_client_1_1.xsd" changelist="47834f18-dd36-4fa2-96bf-6fde36e0e81c" time="1366970467277" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/JavaEE/lib/javaee-impl.jar!/standardSchemas/javaee_web_services_1_2.xsd" changelist="47834f18-dd36-4fa2-96bf-6fde36e0e81c" time="1366970467277" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/JavaEE/lib/javaee-impl.jar!/standardSchemas/application_1_4.xsd" changelist="47834f18-dd36-4fa2-96bf-6fde36e0e81c" time="1366970467277" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/JavaEE/lib/javaee-impl.jar!/standardSchemas/spring.tld" changelist="47834f18-dd36-4fa2-96bf-6fde36e0e81c" time="1366970467277" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/JavaEE/lib/javaee-impl.jar!/standardSchemas/jsp_2_1.xsd" changelist="47834f18-dd36-4fa2-96bf-6fde36e0e81c" time="1366970467277" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/JavaEE/lib/javaee-impl.jar!/standardSchemas/application-client_6.xsd" changelist="47834f18-dd36-4fa2-96bf-6fde36e0e81c" time="1366970467277" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/JavaEE/lib/javaee-impl.jar!/standardSchemas/application-client_1_4.xsd" changelist="47834f18-dd36-4fa2-96bf-6fde36e0e81c" time="1366970467277" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/JavaEE/lib/javaee-impl.jar!/standardSchemas/web-app_3_0.xsd" changelist="47834f18-dd36-4fa2-96bf-6fde36e0e81c" time="1366970467277" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/JavaEE/lib/javaee-impl.jar!/standardSchemas/persistence_2_0.xsd" changelist="47834f18-dd36-4fa2-96bf-6fde36e0e81c" time="1366970467278" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/JavaEE/lib/javaee-impl.jar!/standardSchemas/persistence.xsd" changelist="47834f18-dd36-4fa2-96bf-6fde36e0e81c" time="1366970467278" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/JavaEE/lib/javaee-impl.jar!/standardSchemas/web-facesconfig_1_2.xsd" changelist="47834f18-dd36-4fa2-96bf-6fde36e0e81c" time="1366970467278" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/JavaEE/lib/javaee-impl.jar!/standardSchemas/jspxml.tld" changelist="47834f18-dd36-4fa2-96bf-6fde36e0e81c" time="1366970467278" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/JavaEE/lib/javaee-impl.jar!/standardSchemas/orm_1_0.xsd" changelist="47834f18-dd36-4fa2-96bf-6fde36e0e81c" time="1366970467278" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/JavaEE/lib/javaee-impl.jar!/standardSchemas/jspxml.xsd" changelist="47834f18-dd36-4fa2-96bf-6fde36e0e81c" time="1366970467278" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/JavaEE/lib/javaee-impl.jar!/standardSchemas/application_6.xsd" changelist="47834f18-dd36-4fa2-96bf-6fde36e0e81c" time="1366970467278" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/JavaEE/lib/javaee-impl.jar!/standardSchemas/web-app_2_4.xsd" changelist="47834f18-dd36-4fa2-96bf-6fde36e0e81c" time="1366970467278" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/JavaEE/lib/javaee-impl.jar!/standardSchemas/javaee_web_services_1_3.xsd" changelist="47834f18-dd36-4fa2-96bf-6fde36e0e81c" time="1366970467278" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/JavaEE/lib/javaee-impl.jar!/standardSchemas/jsp_2_2.xsd" changelist="47834f18-dd36-4fa2-96bf-6fde36e0e81c" time="1366970467278" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/JavaEE/lib/javaee-impl.jar!/standardSchemas/javaee_6.xsd" changelist="47834f18-dd36-4fa2-96bf-6fde36e0e81c" time="1366970467278" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/JavaEE/lib/javaee-impl.jar!/standardSchemas/j2ee_1_4.xsd" changelist="47834f18-dd36-4fa2-96bf-6fde36e0e81c" time="1366970467278" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/JavaEE/lib/javaee-impl.jar!/standardSchemas/orm_2_0.xsd" changelist="47834f18-dd36-4fa2-96bf-6fde36e0e81c" time="1366970467278" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/JavaEE/lib/javaee-impl.jar!/standardSchemas/application_5.xsd" changelist="47834f18-dd36-4fa2-96bf-6fde36e0e81c" time="1366970467278" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/JavaEE/lib/javaee-impl.jar!/standardSchemas/web-app_2_5.xsd" changelist="47834f18-dd36-4fa2-96bf-6fde36e0e81c" time="1366970467278" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/JavaEE/lib/javaee-impl.jar!/standardSchemas/javaee_web_services_client_1_3.xsd" changelist="47834f18-dd36-4fa2-96bf-6fde36e0e81c" time="1366970467278" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/JavaEE/lib/javaee-impl.jar!/standardSchemas/ejb-jar_3_0.xsd" changelist="47834f18-dd36-4fa2-96bf-6fde36e0e81c" time="1366970467278" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/JavaEE/lib/javaee-impl.jar!/standardSchemas/ejb-jar_2_1.xsd" changelist="47834f18-dd36-4fa2-96bf-6fde36e0e81c" time="1366970467278" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/JavaEE/lib/javaee-impl.jar!/standardSchemas/javaee_5.xsd" changelist="47834f18-dd36-4fa2-96bf-6fde36e0e81c" time="1366970467278" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/JavaEE/lib/javaee-impl.jar!/standardSchemas/web-common_3_0.xsd" changelist="47834f18-dd36-4fa2-96bf-6fde36e0e81c" time="1366970467278" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/JavaEE/lib/javaee-impl.jar!/standardSchemas/connector_1_6.xsd" changelist="47834f18-dd36-4fa2-96bf-6fde36e0e81c" time="1366970467279" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/JavaEE/lib/javaee-impl.jar!/standardSchemas/connector_1_5.xsd" changelist="47834f18-dd36-4fa2-96bf-6fde36e0e81c" time="1366970467279" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/JavaEE/lib/javaee-impl.jar!/standardSchemas/spring-form.tld" changelist="47834f18-dd36-4fa2-96bf-6fde36e0e81c" time="1366970467279" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/JavaEE/lib/javaee-impl.jar!/standardSchemas/ejb-jar_3_1.xsd" changelist="47834f18-dd36-4fa2-96bf-6fde36e0e81c" time="1366970467279" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/Spring/lib/spring.jar!/resources/schemas/spring-tx-3.1.xsd" changelist="47834f18-dd36-4fa2-96bf-6fde36e0e81c" time="1366970467279" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/JavaEE/lib/javaee-impl.jar!/standardSchemas/web-jsptaglibrary_2_0.xsd" changelist="47834f18-dd36-4fa2-96bf-6fde36e0e81c" time="1366970467279" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/JavaEE/lib/javaee-impl.jar!/standardSchemas/jsp_2_0.xsd" changelist="47834f18-dd36-4fa2-96bf-6fde36e0e81c" time="1366970467279" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/JavaEE/lib/javaee-impl.jar!/standardSchemas/javaee_web_services_client_1_2.xsd" changelist="47834f18-dd36-4fa2-96bf-6fde36e0e81c" time="1366970467279" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/Spring/lib/spring.jar!/resources/schemas/spring-tx-3.2.xsd" changelist="47834f18-dd36-4fa2-96bf-6fde36e0e81c" time="1366970467279" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/JavaEE/lib/javaee-impl.jar!/standardSchemas/application-client_5.xsd" changelist="47834f18-dd36-4fa2-96bf-6fde36e0e81c" time="1366970467279" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/JavaEE/lib/javaee-impl.jar!/standardSchemas/web-fragment_3_0.xsd" changelist="47834f18-dd36-4fa2-96bf-6fde36e0e81c" time="1366970467279" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/JavaEE/lib/javaee-impl.jar!/standardSchemas/web-jsptaglibrary_2_1.xsd" changelist="47834f18-dd36-4fa2-96bf-6fde36e0e81c" time="1366970467279" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/JSF/lib/jsf-support.jar!/resources/schemas/jsf_core_2_0.tld" changelist="47834f18-dd36-4fa2-96bf-6fde36e0e81c" time="1366970467279" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/JSF/lib/jsf-support.jar!/resources/schemas/mojarra_ext.taglib.xml" changelist="47834f18-dd36-4fa2-96bf-6fde36e0e81c" time="1366970467279" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/JSF/lib/jsf-support.jar!/resources/schemas/jstl.core.facelets.tld" changelist="47834f18-dd36-4fa2-96bf-6fde36e0e81c" time="1366970467279" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/JSF/lib/jsf-support.jar!/resources/schemas/javaee_web_services_1_2.xsd" changelist="47834f18-dd36-4fa2-96bf-6fde36e0e81c" time="1366970467279" ignored="false" />
+    <file path="/calzone2.jsp" changelist="47834f18-dd36-4fa2-96bf-6fde36e0e81c" time="1366970643009" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,25 +206,66 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ResultsPageController.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/calzone/ResultsPageController.java">
+      <file leaf-file-name="BuildInfoExtractor.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/calzone/BuildInfoExtractor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="65" column="14" selection-start="3264" selection-end="3264" vertical-scroll-proportion="0.0">
+            <state line="13" column="0" selection-start="333" selection-end="333" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="prototype.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/buildServerResources/prototype.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#2400#2416#0" expanded="true" />
-                <element signature="e#2577#2590#0" expanded="true" />
-                <element signature="e#2805#2816#0" expanded="true" />
-                <element signature="e#5157#5165#0" expanded="true" />
+                <element signature="n#!!doc" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="calzone.jsp" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/buildServerResources/calzone.jsp">
+      <file leaf-file-name="CalzoneController.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/calzone/controller/CalzoneController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="107" column="52" selection-start="5435" selection-end="5435" vertical-scroll-proportion="2.8457446">
+            <state line="11" column="50" selection-start="372" selection-end="372" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ResourceLocator.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/calzone/ResourceLocator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="7" selection-start="85" selection-end="85" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="calzone2.jsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/buildServerResources/calzone2.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="0" selection-start="722" selection-end="722" vertical-scroll-proportion="-8.75">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="calzone.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/buildServerResources/calzone.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="56" column="25" selection-start="1674" selection-end="1674" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="calzone2.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/buildServerResources/calzone2.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1" column="0" selection-start="1" selection-end="1" vertical-scroll-proportion="0.025553662">
               <folding />
             </state>
           </provider>
@@ -115,7 +274,7 @@
       <file leaf-file-name="CalzoneProjects.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/calzone/CalzoneProjects.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="1" selection-start="1243" selection-end="1243" vertical-scroll-proportion="0.0">
+            <state line="17" column="38" selection-start="462" selection-end="462" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -134,53 +293,6 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/calzone/FinishedBuildMaker.java">
           <provider selected="true" editor-type-id="text-editor">
             <state line="17" column="11" selection-start="544" selection-end="544" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BaseController.class" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/lib/server-api.jar!/jetbrains/buildServer/controllers/BaseController.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="87" selection-start="250" selection-end="250" vertical-scroll-proportion="-3.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BuildFormatterTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/calzone/BuildFormatterTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="13" selection-start="509" selection-end="509" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#3829#3837#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="OptionUtils.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/calzone/model/OptionUtils.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="0" selection-start="254" selection-end="254" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="OptionsFormModel.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/calzone/model/OptionsFormModel.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="45" column="20" selection-start="1842" selection-end="1842" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BuildInfo.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/calzone/model/BuildInfo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="51" selection-start="947" selection-end="947" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -205,10 +317,7 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/test/java/calzone/BuildFormatterTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/calzone/model/ProjectInfo.java" />
         <option value="$PROJECT_DIR$/src/main/resources/META-INF/build-server-plugin-calzone.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/calzone/ResourceLocator.java" />
         <option value="$PROJECT_DIR$/src/main/java/calzone/OptionsFormController.java" />
         <option value="$PROJECT_DIR$/src/main/java/calzone/TimeFormatter.java" />
         <option value="$PROJECT_DIR$/src/main/java/calzone/model/OptionsFormModel.java" />
@@ -219,8 +328,14 @@
         <option value="$PROJECT_DIR$/src/main/java/calzone/model/OptionUtils.java" />
         <option value="$PROJECT_DIR$/src/main/java/calzone/Calzone.java" />
         <option value="$PROJECT_DIR$/src/main/java/calzone/CalzoneProjects.java" />
-        <option value="$PROJECT_DIR$/src/main/java/calzone/ResultsPageController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/buildServerResources/calzone.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/calzone/ResultsPageController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/calzone/BuildInfoExtractor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/calzone/CalzoneController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/calzone/controller/CalzoneController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/calzone/ResourceLocator.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/buildServerResources/calzone2.jsp" />
+        <option value="$PROJECT_DIR$/src/main/resources/buildServerResources/calzone2.js" />
       </list>
     </option>
   </component>
@@ -293,18 +408,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="calzone" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -403,54 +506,6 @@
               <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="calzone" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="calzone" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="team-calzone" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="calzone" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="model" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="calzone" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="team-calzone" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -486,15 +541,28 @@
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="MemberChooser.showClasses" value="true" />
+    <property name="restartRequiresConfirmation" value="true" />
     <property name="FullScreen" value="true" />
+    <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="dynamic.classpath" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="dynamic.classpath" value="false" />
+  </component>
+  <component name="PublishConfig">
+    <servers>
+      <server id="1fd253b4-9031-47ef-9073-75a6e2b356c4">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </server>
+    </servers>
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/buildServerResources" />
       <recent name="$PROJECT_DIR$/lib" />
     </key>
     <key name="MoveMembersDialog.RECENTS_KEY">
@@ -504,7 +572,7 @@
       <recent name="calzone.model" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.BuildFormatterTest.setTest">
+  <component name="RunManager" selected="Tomcat Server.TeamCity">
     <configuration default="false" name="BuildFormatterTest.setTest" type="JUnit" factoryName="JUnit" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -514,14 +582,14 @@
       </extension>
       <module name="calzone" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
       <option name="PACKAGE_NAME" value="calzone" />
       <option name="MAIN_CLASS_NAME" value="calzone.BuildFormatterTest" />
       <option name="METHOD_NAME" value="setTest" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
@@ -529,6 +597,11 @@
       </option>
       <envs />
       <patterns />
+      <RunnerSettings RunnerId="JProfiler">
+        <option name="WINDOW" value="false" />
+        <option name="JVMPI" value="false" />
+        <option name="INTERPRETED" value="false" />
+      </RunnerSettings>
       <RunnerSettings RunnerId="JRebel Debug">
         <option name="bootstrapPath" />
         <option name="debugPort" value="" />
@@ -558,6 +631,19 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -584,19 +670,6 @@
       <envs />
       <properties />
       <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -635,8 +708,20 @@
       <patterns />
       <method />
     </configuration>
-    <list size="1">
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local">
+      <deployment />
+      <server-settings />
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <method />
+    </configuration>
+    <list size="2">
       <item index="0" class="java.lang.String" itemvalue="JUnit.BuildFormatterTest.setTest" />
+      <item index="1" class="java.lang.String" itemvalue="Tomcat Server.TeamCity" />
     </list>
     <recent_temporary>
       <list size="1">
@@ -677,17 +762,17 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
-    <editor active="false" />
+    <frame x="0" y="0" width="1680" height="1050" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32878152" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.09224319" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32983193" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="JRebel Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TeamCity" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -701,13 +786,15 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25642595" sideWeight="0.6712185" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32983193" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32864138" sideWeight="0.67016804" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32983193" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="SBT Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32983193" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="JProfiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -781,63 +868,100 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$PROJECT_DIR$/lib/spring-webmvc.jar!/org/springframework/web/bind/ServletRequestUtils.class">
+    <entry file="file://$PROJECT_DIR$/src/main/java/calzone/CalzoneProjects.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="22" selection-start="180" selection-end="180" vertical-scroll-proportion="-3.0">
+        <state line="17" column="38" selection-start="462" selection-end="462" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/calzone/model/ProjectInfo.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/calzone/Calzone.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="40" selection-start="637" selection-end="637" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#395#406#0" expanded="true" />
-            <element signature="e#466#477#0" expanded="true" />
-          </folding>
+        <state line="9" column="0" selection-start="397" selection-end="397" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/buildServerResources/calzone.js">
+    <entry file="file://$PROJECT_DIR$/src/main/java/calzone/FinishedBuildMaker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="11" selection-start="544" selection-end="544" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/calzone/ResultsPageController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/buildServerResources/calzone.css">
+    <entry file="file://$PROJECT_DIR$/src/main/java/calzone/BuildInfoExtractor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="73" column="22" selection-start="999" selection-end="999" vertical-scroll-proportion="0.0">
+        <state line="13" column="0" selection-start="333" selection-end="333" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/buildServerResources/results.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/java/calzone/controller/CalzoneController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="120" selection-start="1247" selection-end="1247" vertical-scroll-proportion="-11.25">
+        <state line="20" column="55" selection-start="656" selection-end="656" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/calzone/model/BuildInfo.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/calzone/ResourceLocator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="51" selection-start="947" selection-end="947" vertical-scroll-proportion="0.0">
+        <state line="20" column="64" selection-start="581" selection-end="581" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/calzone/model/OptionUtils.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/buildServerResources/calzone2.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="254" selection-end="254" vertical-scroll-proportion="0.0">
+        <state line="20" column="85" selection-start="1018" selection-end="1030" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/buildServerResources/calzone.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="56" column="25" selection-start="1674" selection-end="1674" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/buildServerResources/calzone.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="20" selection-start="965" selection-end="965" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/calzone/CalzoneProjects.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="38" selection-start="462" selection-end="462" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/calzone/Calzone.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="0" selection-start="397" selection-end="397" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/calzone/FinishedBuildMaker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="11" selection-start="544" selection-end="544" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/calzone/model/OptionsFormModel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="20" selection-start="1842" selection-end="1842" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="45" column="20" selection-start="1842" selection-end="1842" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/calzone/BuildFormatterTest.java">
@@ -851,16 +975,48 @@
     </entry>
     <entry file="jar://$PROJECT_DIR$/lib/spring-webmvc.jar!/org/springframework/web/servlet/mvc/AbstractController.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="22" selection-start="187" selection-end="187" vertical-scroll-proportion="0.10428737">
-          <folding>
-            <element signature="e#0#1065#0" expanded="true" />
-          </folding>
-        </state>
+        <state line="6" column="22" selection-start="187" selection-end="187" vertical-scroll-proportion="0.10428737" />
       </provider>
     </entry>
     <entry file="jar://$PROJECT_DIR$/lib/server-api.jar!/jetbrains/buildServer/controllers/BaseController.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="87" selection-start="250" selection-end="250" vertical-scroll-proportion="-3.0">
+        <state line="6" column="87" selection-start="250" selection-end="250" vertical-scroll-proportion="-3.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/calzone/Calzone.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="0" selection-start="397" selection-end="397" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/server-api.jar!/jetbrains/buildServer/serverSide/SProject.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="63" column="64" selection-start="4716" selection-end="4716" vertical-scroll-proportion="1.2" />
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/server-api.jar!/jetbrains/buildServer/serverSide/ProjectManager.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="62" selection-start="414" selection-end="414" vertical-scroll-proportion="0.19354838" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/calzone/CalzoneProjects.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="38" selection-start="462" selection-end="462" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/calzone/ResultsPageController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="73" column="4" selection-start="3264" selection-end="3264" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/buildServerResources/calzone.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="20" selection-start="965" selection-end="965" vertical-scroll-proportion="16.875">
           <folding />
         </state>
       </provider>
@@ -872,36 +1028,53 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/calzone/Calzone.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/buildServerResources/calzone.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="397" selection-end="397" vertical-scroll-proportion="0.0">
+        <state line="56" column="25" selection-start="1674" selection-end="1674" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/calzone/CalzoneProjects.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/buildServerResources/calzone2.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="1" selection-start="1243" selection-end="1243" vertical-scroll-proportion="0.0">
+        <state line="14" column="0" selection-start="722" selection-end="722" vertical-scroll-proportion="-8.75">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/calzone/ResultsPageController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/calzone/ResourceLocator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="65" column="14" selection-start="3264" selection-end="3264" vertical-scroll-proportion="0.0">
+        <state line="4" column="7" selection-start="85" selection-end="85" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/calzone/controller/CalzoneController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="50" selection-start="372" selection-end="372" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/calzone/BuildInfoExtractor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="0" selection-start="333" selection-end="333" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/buildServerResources/prototype.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2400#2416#0" expanded="true" />
-            <element signature="e#2577#2590#0" expanded="true" />
-            <element signature="e#2805#2816#0" expanded="true" />
-            <element signature="e#5157#5165#0" expanded="true" />
+            <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/buildServerResources/calzone.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/buildServerResources/calzone2.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="107" column="52" selection-start="5435" selection-end="5435" vertical-scroll-proportion="2.8457446">
+        <state line="1" column="0" selection-start="1" selection-end="1" vertical-scroll-proportion="0.025553662">
           <folding />
         </state>
       </provider>

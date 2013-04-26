@@ -2,7 +2,7 @@ package calzone;
 
 import jetbrains.buildServer.web.openapi.PluginDescriptor;
 
-class ResourceLocator {
+public class ResourceLocator {
     private final PluginDescriptor pluginDescriptor;
 
     ResourceLocator(PluginDescriptor pluginDescriptor) {
@@ -15,5 +15,9 @@ class ResourceLocator {
 
     public String options() {
         return pluginDescriptor.getPluginResourcesPath("calzone.jsp");
+    }
+
+    public String mainPage() {
+        return pluginDescriptor.getPluginResourcesPath("calzone2.jsp");
     }
 }
