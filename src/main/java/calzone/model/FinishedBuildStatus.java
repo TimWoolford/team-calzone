@@ -23,6 +23,6 @@ public enum FinishedBuildStatus {
 
 
     public boolean isGreen() {
-        return asList(none,passed).contains(this);
+        return asList(none, passed).contains(this);
     }
 }

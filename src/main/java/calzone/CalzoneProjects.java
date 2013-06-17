@@ -6,7 +6,7 @@ import jetbrains.buildServer.serverSide.SProject;
 
 import java.util.*;
 
-class CalzoneProjects {
+public class CalzoneProjects {
     private final ProjectManager projectManager;
 
     CalzoneProjects(ProjectManager projectManager) {

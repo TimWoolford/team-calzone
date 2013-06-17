@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="TeamCity 6 API">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/common-api.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/runtime-util.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/server-api.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/log4j-1.2.12.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

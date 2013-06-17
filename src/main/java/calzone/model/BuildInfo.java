@@ -43,26 +43,36 @@ public class BuildInfo implements Comparable<BuildInfo> {
 
     @Override
     public int compareTo(BuildInfo buildInfo) {
-        // failing builds always sort first
-        if (this.isGreen() != buildInfo.isGreen()) {
-            return this.isGreen() ? 1 : -1;
-        }
-
-        // ...then compile failures sort first
-        if (this.isCompileFailure() != buildInfo.isCompileFailure()) {
-            return this.isCompileFailure() ? -1 : 1;
-        }
-
-        // ...then sort by most recently broken first
-        if (this.getTimeSinceLastFirstFailure() != null && buildInfo.getTimeSinceLastFirstFailure() != null) {
-            return getTimeSinceLastFirstFailure().compareTo(buildInfo.getTimeSinceLastFirstFailure());
-        } else if (this.getTimeSinceLastFirstFailure() == null && buildInfo.getTimeSinceLastFirstFailure() != null) {
-            return 1;
-        } else if (this.getTimeSinceLastFirstFailure() != null && buildInfo.getTimeSinceLastFirstFailure() == null) {
-            return -1;
-        }
-
-        // ...in pathological cases, sort by build name ascending
         return this.buildName.toLowerCase().compareTo(buildInfo.getBuildName().toLowerCase());
+    }
+
+    @Override
+    public String toString() {
+        return String.format("last finished [%s], running [%s]", lastFinished.getStatus(), runningBuild.getStatus());
+    }
+
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+
+        BuildInfo buildInfo = (BuildInfo) o;
+
+        if (responsibilityAssigned != buildInfo.responsibilityAssigned) return false;
+        if (!buildName.equals(buildInfo.buildName)) return false;
+        if (!lastFinished.equals(buildInfo.lastFinished)) return false;
+        if (!runningBuild.equals(buildInfo.runningBuild)) return false;
+
+        return true;
+    }
+
+    @Override
+    public int hashCode() {
+        int result = buildName.hashCode();
+        result = 31 * result + lastFinished.hashCode();
+        result = 31 * result + runningBuild.hashCode();
+        result = 31 * result + (responsibilityAssigned ? 1 : 0);
+        return result;
     }
 }

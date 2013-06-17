@@ -16,8 +16,4 @@ public class ResourceLocator {
     public String options() {
         return pluginDescriptor.getPluginResourcesPath("calzone.jsp");
     }
-
-    public String mainPage() {
-        return pluginDescriptor.getPluginResourcesPath("calzone2.jsp");
-    }
 }

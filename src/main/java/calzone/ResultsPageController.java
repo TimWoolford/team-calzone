@@ -1,6 +1,9 @@
 package calzone;
 
-import calzone.model.*;
+import calzone.model.OptionUtils;
+import calzone.model.OptionsFormModel;
+import calzone.model.ProjectInfo;
+import calzone.model.ValueWithLabel;
 import jetbrains.buildServer.controllers.BaseController;
 import org.apache.log4j.Logger;
 import org.springframework.web.servlet.ModelAndView;
@@ -10,7 +13,6 @@ import javax.servlet.http.HttpServletResponse;
 import java.util.*;
 
 import static calzone.model.OptionUtils.parameterAsBoolean;
-import static java.util.Arrays.asList;
 
 public class ResultsPageController extends BaseController {
     Logger LOG = Logger.getLogger("calzone-plugin");
@@ -40,20 +42,19 @@ public class ResultsPageController extends BaseController {
     protected ModelAndView doHandle(HttpServletRequest request, HttpServletResponse response) throws Exception {
         OptionsFormModel options = optionUtils.fromRequest(request);
 
-        HashSet<String> buildsToDisplaySet = asSet(options.getBuildsToDisplay());
-        HashSet<String> projectsToDisplaySet = asSet(options.getProjectsToDisplay());
-
-        if (options.isDebug()) {
-            LOG.debug(String.format("Requested Projects::\n%s", formatSet(projectsToDisplaySet)));
-            LOG.debug(String.format("Requested Builds::\n%s", formatSet(buildsToDisplaySet)));
-        }
-
         Map<String, Object> model = new HashMap<String, Object>();
         model.putAll(optionUtils.toMap(options));
 
         if (parameterAsBoolean(request, "fragment")) {
+            Set<String> buildsToDisplaySet = asSet(options.getBuildsToDisplay());
+            Set<String> projectsToDisplaySet = asSet(options.getProjectsToDisplay());
 
-            Set<ProjectInfo> projects = buildInfoExtractor.getProjectInfos(options, buildsToDisplaySet, projectsToDisplaySet);
+            if (options.isDebug()) {
+                LOG.debug(String.format("Requested Projects::\n%s", formatSet(projectsToDisplaySet)));
+                LOG.debug(String.format("Requested Builds::\n%s", formatSet(buildsToDisplaySet)));
+            }
+
+            Set<ProjectInfo> projects = buildInfoExtractor.getProjectInfos(projectsToDisplaySet, buildsToDisplaySet, options);
 
             model.put("results", projects);
             model.put("now", new Date());
@@ -77,12 +78,11 @@ public class ResultsPageController extends BaseController {
                 .replaceAll(",\\s?", "\n");
     }
 
-    private HashSet<String> asSet(String[] dataAsArray) {
-        HashSet<String> dataAsSet = new HashSet<String>(asList(dataAsArray));
+    private Set<String> asSet(String[] dataAsArray) {
+        Set<String> dataAsSet = new TreeSet<String>();
         for (String s : dataAsArray) {
             dataAsSet.add(s.toLowerCase());
         }
         return dataAsSet;
     }
-
 }

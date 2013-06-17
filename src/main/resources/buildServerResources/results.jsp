@@ -44,8 +44,9 @@
                         <c:if test="${options.showTimeRemaining and !(empty build.runningBuild.timeRemaining)}">
                             (<c:out value="${build.runningBuild.timeRemaining}"/>)
                         </c:if>
+                        <c:if test='${!greenList.last}'>, </c:if>
                     </span>
-                    <c:if test='${!greenList.last}'>, </c:if>
+
                 </c:forEach>
             </div>
         </c:if>

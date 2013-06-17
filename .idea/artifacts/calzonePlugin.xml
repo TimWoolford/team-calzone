@@ -1,0 +1,15 @@
+<component name="ArtifactManager">
+  <artifact build-on-make="true" name="calzonePlugin">
+    <output-path>$USER_HOME$/.BuildServer/plugins</output-path>
+    <root id="root">
+      <element id="archive" name="calzonePlugin.zip">
+        <element id="directory" name="server">
+          <element id="archive" name="calzone.jar">
+            <element id="module-output" name="calzone" />
+          </element>
+        </element>
+        <element id="file-copy" path="$PROJECT_DIR$/src/main/metadata/teamcity-plugin.xml" />
+      </element>
+    </root>
+  </artifact>
+</component>

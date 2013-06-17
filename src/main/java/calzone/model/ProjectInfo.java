@@ -8,7 +8,7 @@ import java.util.regex.Pattern;
 
 public class ProjectInfo implements Comparable<ProjectInfo> {
 
-    Pattern NETSTREAM_BRANCH = Pattern.compile("netstream i(\\d+)");
+    private static final Pattern NETSTREAM_BRANCH = Pattern.compile("netstream i(\\d+)");
 
     private final String projectName;
     private final Set<BuildInfo> greenBuilds = new TreeSet<BuildInfo>();
@@ -38,21 +38,21 @@ public class ProjectInfo implements Comparable<ProjectInfo> {
     }
 
     public int compareTo(ProjectInfo projectInfo) {
-        String a = getProjectName().toLowerCase();
-        String b = projectInfo.getProjectName().toLowerCase();
+        String thisProjectName = getProjectName().toLowerCase();
+        String otherProjectName = projectInfo.getProjectName().toLowerCase();
 
         // Netstream Trunk always sorts first
-        if (a.equals(b)) {
+        if (thisProjectName.equals(otherProjectName)) {
             return 0;
-        } else if (a.equals("netstream trunk")) {
+        } else if (thisProjectName.equals("netstream trunk")) {
             return -1;
-        } else if (b.equals("netstream trunk")) {
+        } else if (otherProjectName.equals("netstream trunk")) {
             return 1;
         }
 
         // ...then Netstream branches, latest first
-        Integer aBranch = parseNetstreamBranch(a);
-        Integer bBranch = parseNetstreamBranch(b);
+        Integer aBranch = parseNetstreamBranch(thisProjectName);
+        Integer bBranch = parseNetstreamBranch(otherProjectName);
         if (aBranch != null && bBranch != null) {
             return -(aBranch.compareTo(bBranch));
         } else if (aBranch == null && bBranch != null) {
@@ -62,7 +62,7 @@ public class ProjectInfo implements Comparable<ProjectInfo> {
         }
 
         // ...then miscellaneous projects, sorted on project name ascending
-        return this.projectName.toLowerCase().compareTo(projectInfo.getProjectName().toLowerCase());
+        return thisProjectName.compareTo(otherProjectName);
     }
 
     private Integer parseNetstreamBranch(String projectName) {

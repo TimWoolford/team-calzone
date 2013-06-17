@@ -1,10 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="ArtifactsWorkspaceSettings">
-    <artifacts-to-build>
-      <artifact name="calzonePlugin" />
-    </artifacts-to-build>
-  </component>
   <component name="BuildServerSettings">
     <option name="LOGIN" value="" />
     <option name="SERVER_URL" value="http://buildserver" />
@@ -28,34 +23,54 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="47834f18-dd36-4fa2-96bf-6fde36e0e81c" name="Default" comment="TimW rework to simplify... some red builds not showing on occasion">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/calzone/BuildInfoExtractor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/calzone/controller/CalzoneController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/buildServerResources/calzone2.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/buildServerResources/calzone2.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/runConfigurations/TeamCity.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/TeamCity_6_API.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/calzonePlugin.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/tim.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/calzone.ipr" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/calzone.iws" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/calzone/controller/CalzoneController.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/calzone/model/BuildInfo.java" afterPath="$PROJECT_DIR$/src/main/java/calzone/model/BuildInfo.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/calzone/BuildInfoExtractor.java" afterPath="$PROJECT_DIR$/src/main/java/calzone/BuildInfoExtractor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/calzone/model/CalzoneFinishedBuild.java" afterPath="$PROJECT_DIR$/src/main/java/calzone/model/CalzoneFinishedBuild.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/calzone/CalzoneProjects.java" afterPath="$PROJECT_DIR$/src/main/java/calzone/CalzoneProjects.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/calzone/model/CalzoneRunningBuild.java" afterPath="$PROJECT_DIR$/src/main/java/calzone/model/CalzoneRunningBuild.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/calzone/model/FinishedBuildStatus.java" afterPath="$PROJECT_DIR$/src/main/java/calzone/model/FinishedBuildStatus.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/calzone/model/ProjectInfo.java" afterPath="$PROJECT_DIR$/src/main/java/calzone/model/ProjectInfo.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/calzone/ResourceLocator.java" afterPath="$PROJECT_DIR$/src/main/java/calzone/ResourceLocator.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/calzone/ResultsPageController.java" afterPath="$PROJECT_DIR$/src/main/java/calzone/ResultsPageController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/calzone.ipr" afterPath="$PROJECT_DIR$/calzone.ipr" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/calzone.iws" afterPath="$PROJECT_DIR$/calzone.iws" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/buildServerResources/results.jsp" afterPath="$PROJECT_DIR$/src/main/resources/buildServerResources/results.jsp" />
     </list>
     <ignored path="calzone.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/ResultsPageController.java" changelist="47834f18-dd36-4fa2-96bf-6fde36e0e81c" time="1366969851123" ignored="false" />
+    <file path="/ResultsPageController.java" changelist="47834f18-dd36-4fa2-96bf-6fde36e0e81c" time="1371484848253" ignored="false" />
     <file path="/BuildFormatterTest.java" changelist="47834f18-dd36-4fa2-96bf-6fde36e0e81c" time="1366876870004" ignored="false" />
     <file path="/teamcity-server-log4j.xml" changelist="47834f18-dd36-4fa2-96bf-6fde36e0e81c" time="1366878498696" ignored="false" />
-    <file path="/a.dummy" changelist="47834f18-dd36-4fa2-96bf-6fde36e0e81c" time="1366908802474" ignored="false" />
+    <file path="/a.dummy" changelist="47834f18-dd36-4fa2-96bf-6fde36e0e81c" time="1371484929679" ignored="false" />
     <file path="/FormController.java" changelist="47834f18-dd36-4fa2-96bf-6fde36e0e81c" time="1366883343763" ignored="false" />
     <file path="/Calzone.java" changelist="47834f18-dd36-4fa2-96bf-6fde36e0e81c" time="1366898413999" ignored="false" />
-    <file path="/BuildInfo.java" changelist="47834f18-dd36-4fa2-96bf-6fde36e0e81c" time="1366907241005" ignored="false" />
-    <file path="/ProjectInfo.java" changelist="47834f18-dd36-4fa2-96bf-6fde36e0e81c" time="1366889288339" ignored="false" />
-    <file path="$USER_HOME$/Downloads/TeamCity/conf/teamcity-server-log4j.xml" changelist="47834f18-dd36-4fa2-96bf-6fde36e0e81c" time="1366889620309" ignored="false" />
+    <file path="/BuildInfo.java" changelist="47834f18-dd36-4fa2-96bf-6fde36e0e81c" time="1371484636537" ignored="false" />
+    <file path="/ProjectInfo.java" changelist="47834f18-dd36-4fa2-96bf-6fde36e0e81c" time="1371465051926" ignored="false" />
     <file path="/results.jsp" changelist="47834f18-dd36-4fa2-96bf-6fde36e0e81c" time="1366907602934" ignored="false" />
     <file path="/OptionsFormController.java" changelist="47834f18-dd36-4fa2-96bf-6fde36e0e81c" time="1366898144699" ignored="false" />
     <file path="/calzone.jsp" changelist="47834f18-dd36-4fa2-96bf-6fde36e0e81c" time="1366963402350" ignored="false" />
     <file path="/build-server-plugin-calzone.xml" changelist="47834f18-dd36-4fa2-96bf-6fde36e0e81c" time="1366897744150" ignored="false" />
-    <file path="/fragment.java" changelist="47834f18-dd36-4fa2-96bf-6fde36e0e81c" time="1366973743587" ignored="false" />
+    <file path="/fragment.java" changelist="47834f18-dd36-4fa2-96bf-6fde36e0e81c" time="1371464612134" ignored="false" />
     <file path="/TimeFormatter.java" changelist="47834f18-dd36-4fa2-96bf-6fde36e0e81c" time="1366901342292" ignored="false" />
     <file path="/OptionsFormModel.java" changelist="47834f18-dd36-4fa2-96bf-6fde36e0e81c" time="1366904312721" ignored="false" />
-    <file path="/Dummy.txt" changelist="47834f18-dd36-4fa2-96bf-6fde36e0e81c" time="1366973902970" ignored="false" />
+    <file path="/Dummy.txt" changelist="47834f18-dd36-4fa2-96bf-6fde36e0e81c" time="1371463759166" ignored="false" />
     <file path="/CalzoneController.java" changelist="47834f18-dd36-4fa2-96bf-6fde36e0e81c" time="1366969231335" ignored="false" />
     <file path="/ResourceLocator.java" changelist="47834f18-dd36-4fa2-96bf-6fde36e0e81c" time="1366970603599" ignored="false" />
     <file path="$APPLICATION_HOME_DIR$/lib/idea.jar!/standardSchemas/xinclude.xsd" changelist="47834f18-dd36-4fa2-96bf-6fde36e0e81c" time="1366970467275" ignored="false" />
@@ -146,13 +161,19 @@
     <file path="$APPLICATION_HOME_DIR$/plugins/JSF/lib/jsf-support.jar!/resources/schemas/jstl.core.facelets.tld" changelist="47834f18-dd36-4fa2-96bf-6fde36e0e81c" time="1366970467279" ignored="false" />
     <file path="$APPLICATION_HOME_DIR$/plugins/JSF/lib/jsf-support.jar!/resources/schemas/javaee_web_services_1_2.xsd" changelist="47834f18-dd36-4fa2-96bf-6fde36e0e81c" time="1366970467279" ignored="false" />
     <file path="/calzone2.jsp" changelist="47834f18-dd36-4fa2-96bf-6fde36e0e81c" time="1366970643009" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/jsp/lib/jsp-impl.jar!/standardSchemas/jspxml2.xsd" changelist="47834f18-dd36-4fa2-96bf-6fde36e0e81c" time="1371464182860" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/jsp/lib/jsp-impl.jar!/standardSchemas/jspdirectives.xsd" changelist="47834f18-dd36-4fa2-96bf-6fde36e0e81c" time="1371464182860" ignored="false" />
+    <file path="/ProjectInfoTest.java" changelist="47834f18-dd36-4fa2-96bf-6fde36e0e81c" time="1371464778337" ignored="false" />
+    <file path="/CalzoneProjects.java" changelist="47834f18-dd36-4fa2-96bf-6fde36e0e81c" time="1371465139601" ignored="false" />
+    <file path="/BuildInfoExtractor.java" changelist="47834f18-dd36-4fa2-96bf-6fde36e0e81c" time="1371482176576" ignored="false" />
+    <file path="/BuildFormatter.java" changelist="47834f18-dd36-4fa2-96bf-6fde36e0e81c" time="1371482021298" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="ChangesViewManager" flattened_view="false" show_ignored="false" />
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
@@ -209,63 +230,65 @@
       <file leaf-file-name="BuildInfoExtractor.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/calzone/BuildInfoExtractor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="0" selection-start="333" selection-end="333" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="prototype.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/buildServerResources/prototype.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="41" column="55" selection-start="1951" selection-end="1951" vertical-scroll-proportion="0.0">
               <folding>
-                <element signature="n#!!doc" expanded="true" />
+                <element signature="e#1554#1565#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CalzoneController.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/calzone/controller/CalzoneController.java">
+      <file leaf-file-name="BuildFormatter.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/calzone/BuildFormatter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="50" selection-start="372" selection-end="372" vertical-scroll-proportion="0.0">
+            <state line="16" column="21" selection-start="557" selection-end="557" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BuildInfo.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/calzone/model/BuildInfo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="65" column="0" selection-start="2149" selection-end="2149" vertical-scroll-proportion="0.54003406">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ResourceLocator.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/calzone/ResourceLocator.java">
+      <file leaf-file-name="ProjectInfo.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/calzone/model/ProjectInfo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="7" selection-start="85" selection-end="85" vertical-scroll-proportion="0.0">
+            <state line="26" column="0" selection-start="823" selection-end="823" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="calzone2.jsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/buildServerResources/calzone2.jsp">
+      <file leaf-file-name="CalzoneFinishedBuild.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/calzone/model/CalzoneFinishedBuild.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="0" selection-start="722" selection-end="722" vertical-scroll-proportion="-8.75">
+            <state line="6" column="19" selection-start="174" selection-end="174" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="calzone.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/buildServerResources/calzone.js">
+      <file leaf-file-name="ResultsPageController.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/calzone/ResultsPageController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="56" column="25" selection-start="1674" selection-end="1674" vertical-scroll-proportion="0.0">
+            <state line="76" column="34" selection-start="3498" selection-end="3498" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="calzone2.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/buildServerResources/calzone2.js">
+      <file leaf-file-name="OptionsFormModel.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/calzone/model/OptionsFormModel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="0" selection-start="1" selection-end="1" vertical-scroll-proportion="0.025553662">
+            <state line="45" column="20" selection-start="1842" selection-end="1842" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -274,16 +297,7 @@
       <file leaf-file-name="CalzoneProjects.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/calzone/CalzoneProjects.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="38" selection-start="462" selection-end="462" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Calzone.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/calzone/Calzone.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="0" selection-start="397" selection-end="397" vertical-scroll-proportion="0.0">
+            <state line="23" column="49" selection-start="719" selection-end="719" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -292,7 +306,16 @@
       <file leaf-file-name="FinishedBuildMaker.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/calzone/FinishedBuildMaker.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="11" selection-start="544" selection-end="544" vertical-scroll-proportion="0.0">
+            <state line="25" column="83" selection-start="972" selection-end="972" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CalzoneRunningBuild.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/calzone/model/CalzoneRunningBuild.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="21" column="37" selection-start="510" selection-end="510" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -321,21 +344,28 @@
         <option value="$PROJECT_DIR$/src/main/java/calzone/OptionsFormController.java" />
         <option value="$PROJECT_DIR$/src/main/java/calzone/TimeFormatter.java" />
         <option value="$PROJECT_DIR$/src/main/java/calzone/model/OptionsFormModel.java" />
-        <option value="$PROJECT_DIR$/src/main/java/calzone/model/BuildInfo.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/buildServerResources/results.jsp" />
         <option value="$PROJECT_DIR$/src/main/resources/buildServerResources/calzone.css" />
         <option value="$PROJECT_DIR$/src/test/java/calzone/model/OptionUtils.java" />
         <option value="$PROJECT_DIR$/src/main/java/calzone/model/OptionUtils.java" />
         <option value="$PROJECT_DIR$/src/main/java/calzone/Calzone.java" />
-        <option value="$PROJECT_DIR$/src/main/java/calzone/CalzoneProjects.java" />
         <option value="$PROJECT_DIR$/src/main/resources/buildServerResources/calzone.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/calzone/ResultsPageController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/calzone/BuildInfoExtractor.java" />
         <option value="$PROJECT_DIR$/src/main/java/calzone/CalzoneController.java" />
         <option value="$PROJECT_DIR$/src/main/java/calzone/controller/CalzoneController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/calzone/ResourceLocator.java" />
         <option value="$PROJECT_DIR$/src/main/resources/buildServerResources/calzone2.jsp" />
         <option value="$PROJECT_DIR$/src/main/resources/buildServerResources/calzone2.js" />
+        <option value="$PROJECT_DIR$/src/main/resources/buildServerResources/results.jsp" />
+        <option value="$PROJECT_DIR$/src/test/java/calzone/model/ProjectInfoTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/calzone/CalzoneProjects.java" />
+        <option value="$PROJECT_DIR$/src/main/java/calzone/model/ProjectInfo.java" />
+        <option value="$USER_HOME$/Downloads/TeamCity/conf/teamcity-server-log4j.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/calzone/BuildFormatter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/calzone/BuildInfoExtractor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/calzone/model/FinishedBuildStatus.java" />
+        <option value="$PROJECT_DIR$/src/main/java/calzone/ResourceLocator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/calzone/model/CalzoneFinishedBuild.java" />
+        <option value="$PROJECT_DIR$/src/main/java/calzone/model/CalzoneRunningBuild.java" />
+        <option value="$PROJECT_DIR$/src/main/java/calzone/ResultsPageController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/calzone/model/BuildInfo.java" />
       </list>
     </option>
   </component>
@@ -369,6 +399,20 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="calzone" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="calzone" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="Scope">
         <subPane subId="Project Files">
           <PATH>
@@ -383,13 +427,13 @@
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="calzone" />
+              <option name="myItemId" value="team-calzone" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="calzone" />
+              <option name="myItemId" value="team-calzone" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -399,7 +443,7 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="calzone" />
+              <option name="myItemId" value="team-calzone" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -410,10 +454,22 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="calzone" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="calzone" />
+              <option name="myItemId" value="team-calzone" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -432,14 +488,10 @@
               <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="META-INF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="calzone" />
+              <option name="myItemId" value="team-calzone" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -465,7 +517,7 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="calzone" />
+              <option name="myItemId" value="team-calzone" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -480,14 +532,10 @@
               <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="metadata" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="calzone" />
+              <option name="myItemId" value="team-calzone" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -506,19 +554,39 @@
               <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="PackagesPane">
-        <subPane>
-          <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="calzone" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="team-calzone" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="team-calzone" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="calzone" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -528,19 +596,21 @@
   <component name="PropertiesComponent">
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/test/java/calzone" />
     <property name="GoToFile.includeJavaFiles" value="false" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit3" />
     <property name="OverrideImplement.combined" value="true" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="recentsLimit" value="5" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="options.lastSelected" value="appearance" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/TeamCity/conf/teamcity-server-log4j.xml" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="GoToClass.includeJavaFiles" value="false" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="false" />
     <property name="restartRequiresConfirmation" value="true" />
     <property name="FullScreen" value="true" />
     <property name="MemberChooser.showClasses" value="true" />
@@ -561,18 +631,14 @@
     </servers>
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/resources/buildServerResources" />
-      <recent name="$PROJECT_DIR$/lib" />
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
     </key>
-    <key name="MoveMembersDialog.RECENTS_KEY">
-      <recent name="calzone.ResultsPageController.OptionUtils" />
-    </key>
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+    <key name="CreateTestDialog.RecentsKey">
       <recent name="calzone.model" />
     </key>
   </component>
-  <component name="RunManager" selected="Tomcat Server.TeamCity">
+  <component name="RunManager" selected="JUnit.calzone in calzone">
     <configuration default="false" name="BuildFormatterTest.setTest" type="JUnit" factoryName="JUnit" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -613,6 +679,68 @@
         <option name="TRANSPORT" value="0" />
         <option name="LOCAL" value="true" />
       </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="ProjectInfoTest.stuff" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="calzone.model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="calzone" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="calzone.model" />
+      <option name="MAIN_CLASS_NAME" value="calzone.model.ProjectInfoTest" />
+      <option name="METHOD_NAME" value="stuff" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="calzone in calzone" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="calzone.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="calzone" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="calzone" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
@@ -719,13 +847,17 @@
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <method />
     </configuration>
-    <list size="2">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.BuildFormatterTest.setTest" />
-      <item index="1" class="java.lang.String" itemvalue="Tomcat Server.TeamCity" />
+    <list size="4">
+      <item index="0" class="java.lang.String" itemvalue="Tomcat Server.TeamCity" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.BuildFormatterTest.setTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.ProjectInfoTest.stuff" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.calzone in calzone" />
     </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.BuildFormatterTest.setTest" />
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.calzone in calzone" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.ProjectInfoTest.stuff" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.BuildFormatterTest.setTest" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -765,13 +897,14 @@
     <frame x="0" y="0" width="1680" height="1050" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.09224319" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25210086" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32983193" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="JRebel Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39915967" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TeamCity" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -786,14 +919,13 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32864138" sideWeight="0.67016804" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32983193" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24051407" sideWeight="0.67016804" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32878152" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="SBT Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32983193" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="JProfiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -868,197 +1000,9 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/calzone/CalzoneProjects.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="38" selection-start="462" selection-end="462" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/calzone/Calzone.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="397" selection-end="397" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/calzone/FinishedBuildMaker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="11" selection-start="544" selection-end="544" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/calzone/ResultsPageController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/calzone/BuildInfoExtractor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="0" selection-start="333" selection-end="333" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/calzone/controller/CalzoneController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="55" selection-start="656" selection-end="656" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/calzone/ResourceLocator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="64" selection-start="581" selection-end="581" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/buildServerResources/calzone2.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="85" selection-start="1018" selection-end="1030" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/buildServerResources/calzone.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="56" column="25" selection-start="1674" selection-end="1674" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/buildServerResources/calzone.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="20" selection-start="965" selection-end="965" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/calzone/CalzoneProjects.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="38" selection-start="462" selection-end="462" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/calzone/Calzone.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="397" selection-end="397" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/calzone/FinishedBuildMaker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="11" selection-start="544" selection-end="544" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/calzone/model/OptionsFormModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="20" selection-start="1842" selection-end="1842" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/calzone/BuildFormatterTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="13" selection-start="509" selection-end="509" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#3829#3837#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/spring-webmvc.jar!/org/springframework/web/servlet/mvc/AbstractController.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="22" selection-start="187" selection-end="187" vertical-scroll-proportion="0.10428737" />
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/server-api.jar!/jetbrains/buildServer/controllers/BaseController.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="87" selection-start="250" selection-end="250" vertical-scroll-proportion="-3.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/calzone/Calzone.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="397" selection-end="397" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/server-api.jar!/jetbrains/buildServer/serverSide/SProject.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="63" column="64" selection-start="4716" selection-end="4716" vertical-scroll-proportion="1.2" />
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/server-api.jar!/jetbrains/buildServer/serverSide/ProjectManager.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="62" selection-start="414" selection-end="414" vertical-scroll-proportion="0.19354838" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/calzone/CalzoneProjects.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="38" selection-start="462" selection-end="462" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/calzone/ResultsPageController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="73" column="4" selection-start="3264" selection-end="3264" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/buildServerResources/calzone.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="20" selection-start="965" selection-end="965" vertical-scroll-proportion="16.875">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/calzone/FinishedBuildMaker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="11" selection-start="544" selection-end="544" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/buildServerResources/calzone.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="25" selection-start="1674" selection-end="1674" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/buildServerResources/calzone2.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="0" selection-start="722" selection-end="722" vertical-scroll-proportion="-8.75">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/calzone/ResourceLocator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="7" selection-start="85" selection-end="85" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/calzone/controller/CalzoneController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="50" selection-start="372" selection-end="372" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/calzone/BuildInfoExtractor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="0" selection-start="333" selection-end="333" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -1066,15 +1010,215 @@
     <entry file="file://$PROJECT_DIR$/src/main/resources/buildServerResources/prototype.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/make-zipfile.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/calzone/Calzone.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="70" selection-start="613" selection-end="613" vertical-scroll-proportion="0.21226415">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/server-api.jar!/jetbrains/buildServer/controllers/BaseController.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="68" selection-start="875" selection-end="875" vertical-scroll-proportion="0.27206773">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/buildServerResources/calzone.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="20" selection-start="965" selection-end="965" vertical-scroll-proportion="6.875">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/buildServerResources/calzone2.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="0" selection-start="722" selection-end="722" vertical-scroll-proportion="0.37300178">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/TeamCity/conf/log4j.dtd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/TeamCity/conf/teamcity-server-log4j.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="148" column="0" selection-start="6889" selection-end="6889" vertical-scroll-proportion="0.0">
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <marker date="1371472007000" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/server-api.jar!/jetbrains/buildServer/serverSide/SProject.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="63" column="64" selection-start="4716" selection-end="4716" vertical-scroll-proportion="-11.84">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/runtime-util.jar!/jetbrains/buildServer/messages/Status.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="25" selection-start="179" selection-end="185" vertical-scroll-proportion="0.13636364">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/buildServerResources/calzone2.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="1" selection-end="1" vertical-scroll-proportion="0.025553662">
+        <state line="1" column="0" selection-start="1" selection-end="1" vertical-scroll-proportion="0.025510205">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/server-api.jar!/jetbrains/buildServer/serverSide/SBuildType.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="67" selection-start="1732" selection-end="1732" vertical-scroll-proportion="-7.64">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/calzone/RunningBuildMaker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="58" selection-start="1099" selection-end="1099" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/calzone/model/FinishedBuildStatus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="19" selection-start="752" selection-end="752" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/calzone/model/RunningBuildStatus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="12" selection-start="123" selection-end="123" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/calzone/model/OptionUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="28" selection-start="2131" selection-end="2131" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/servlet-api.jar!/javax/servlet/http/HttpServletRequest.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="17" selection-start="165" selection-end="165" vertical-scroll-proportion="-0.3587922">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/calzone/ResourceLocator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="1" selection-start="493" selection-end="493" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/idea.jar!/resources/html5-schema/common.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="123" column="23" selection-start="3271" selection-end="3271" vertical-scroll-proportion="0.28231293">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/buildServerResources/results.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="59" selection-start="959" selection-end="959" vertical-scroll-proportion="-9.375">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/calzone/FinishedBuildMaker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="83" selection-start="972" selection-end="972" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/calzone/model/CalzoneFinishedBuild.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="19" selection-start="174" selection-end="174" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/calzone/model/CalzoneRunningBuild.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="37" selection-start="510" selection-end="510" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/calzone/model/OptionsFormModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="20" selection-start="1842" selection-end="1842" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/calzone/ResultsPageController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="76" column="34" selection-start="3498" selection-end="3498" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/calzone/CalzoneProjects.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="49" selection-start="719" selection-end="719" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/calzone/BuildFormatter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="21" selection-start="557" selection-end="557" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/calzone/BuildInfoExtractor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="55" selection-start="1951" selection-end="1951" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#1554#1565#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/calzone/model/ProjectInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="0" selection-start="823" selection-end="823" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/calzone/model/BuildInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="65" column="0" selection-start="2149" selection-end="2149" vertical-scroll-proportion="0.54003406">
           <folding />
         </state>
       </provider>
@@ -1110,7 +1254,7 @@
       </state>
       <state key="GlobalLibrariesConfigurable.UI">
         <settings>
-          <last-edited>hamcrest-core-1.1</last-edited>
+          <last-edited>[gem] actionmailer (v1.3.6, /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/actionmailer-1.3.6)</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1122,7 +1266,7 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>1.6</last-edited>
+          <last-edited>1.5</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
